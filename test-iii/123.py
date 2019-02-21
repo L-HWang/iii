@@ -22,7 +22,10 @@ com = random.randint(0, 3)
 print("電腦出拳:", trans[com])
 if c == (com - 1) % 4:
     print("我贏了")
+
 elif c == (com + 1) % 4:
     print("我輸了")
 else:
     print("平手")
+
+print(123456789)
